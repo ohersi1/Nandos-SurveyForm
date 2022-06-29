@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(
+      115deg,
+      rgba(242, 121, 53, 0.7),
+      rgba(249, 191, 51, 0.5)
+    ),
+    url("https://images.pexels.com/photos/2338407/pexels-photo-2338407.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+p,
+label {
+  color: white;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"] {
+  padding: 10px 10px;
+  width: 500px;
+}
+
+.headlineandcaption {
+  text-align: center;
+  position: relative;
+  top: 25px;
+}
+
+#title {
+  color: white;
+  padding-top: 60px;
+}
+
+#description {
+  color: white;
+  padding-top: 30px;
+}
+
+#section {
+  background-color: rgba(249, 180, 45, 0.9);
+  padding: 25px 3px 40px 17px;
+  width: 540px;
+  margin: auto;
+  position: relative;
+  top: 70px;
+  border-radius: 8px;
+}
+
+#name-label {
+  display: block;
+  text-align: left;
+}
+
+#email-label {
+  display: block;
+  text-align: left;
+}
+
+#number-label {
+  display: block;
+  text-align: left;
+}
+
+input[type="text"] {
+  margin-bottom: 10px;
+  color: black;
+  border-radius: 0.25rem;
+}
+
+input[type="email"] {
+  margin-bottom: 10px;
+  color: black;
+  border-radius: 0.25rem;
+}
+
+input[type="number"] {
+  margin-bottom: 15px;
+  color: black;
+  border-radius: 0.25rem;
+}
+
+input[type="radio"] {
+  display: inline-block;
+}
+
+select {
+  width: 524px;
+  padding: 15px 5px 15px;
+  border-radius: 0.25rem;
+  margin-bottom: 10px;
+}
+
+#dropdown {
+  display: block;
+  text-align: left;
+}
+
+.recommend {
+  text-align: left;
+  margin-bottom: 7px;
+}
+
+textarea {
+  padding: 10px 10px;
+  border-radius: 0.25rem;
+  margin-bottom: 15px;
+}
+
+button {
+  padding: 10px 10px;
+  cursor: pointer;
+  width: 527px;
+  background-color: white;
+}
+
+#whatisyour {
+  margin-top: 10px;
+}
+
+#improved {
+  margin-bottom: 10px;
+}
+
+#anycomments {
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
