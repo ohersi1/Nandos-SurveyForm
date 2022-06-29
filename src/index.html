@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Poppins:ital@1&display=swap"
+			rel="stylesheet"
+		/>
+		<title>Document</title>
+	</head>
+	<body>
+		<div class="headlineandcaption">
+			<h1 id="title">Nando's Survey Form</h1>
+			<p id="description">
+				Thank you for taking the time to help us improve our restaurant
+			</p>
+			<p></p>
+		</div>
+
+		<section id="section">
+			<form id="survey-form">
+				<label id="name-label" for="name">
+					Name
+					<br />
+					<input
+						placeholder="Enter Full Name..."
+						id="name"
+						type="text"
+						required
+					/>
+				</label>
+				<label id="email-label" for="email">
+					Email
+					<input
+						placeholder="Enter Email..."
+						id="email"
+						type="email"
+						required
+					/>
+				</label>
+				<label id="number-label" for="number">
+					Age
+					<input
+						placeholder="Age..."
+						id="number"
+						type="number"
+						min="0"
+						max="130"
+					/>
+				</label>
+				<label for="dropdown" id="dropdown">
+					<p id="whichoption">Which option best describes your current role?</p>
+					<select name="occupation" id="dropdown">
+						<option value="">Select current role</option>
+						<option value="student">Full Time Student</option>
+						<option value="employed">Full Time Employment</option>
+						<option value="prefernottosay">Prefer Not To Say</option>
+					</select>
+				</label>
+				<p class="recommend">Would you recommend Nando's to a friend?</p>
+				<div class="radiobuttons1">
+					<label for="definitely">
+						<input
+							type="radio"
+							id="definitely"
+							name="recommendation"
+							value="definitely"
+						/>
+						Definitely <br />
+					</label>
+					<label for="maybe">
+						<input
+							type="radio"
+							id="maybe"
+							name="recommendation"
+							value="maybe"
+						/>
+						Maybe <br />
+					</label>
+					<label for="notsure">
+						<input
+							type="radio"
+							id="notsure"
+							name="recommendation"
+							value="notsure"
+						/>
+						Not Sure <br />
+					</label>
+				</div>
+				<p id="whatisyour">What is your favorite dish at Nando's?</p>
+				<label for="dropdown2">
+					<select name="favouritedish" id="dropdown2">
+						<option value="">Select an option</option>
+						<option value="chickenthighs">Chicken Thighs</option>
+						<option value="halfchicken">Half Chicken</option>
+						<option value="chickenwrap">Chicken Wrap</option>
+						<option value="otherdish">Other Dish</option>
+					</select>
+				</label>
+				<p id="improved">
+					What would you like to see improved? (Check all that apply)
+				</p>
+				<label for="waitingtime">
+					<input type="checkbox" id="waitingtime" value="waitingtime" /> Waiting
+					time for food <br />
+				</label>
+				<label for="veganoptions">
+					<input type="checkbox" id="veganoptions" value="veganoptions" /> Vegan
+					Options <br />
+				</label>
+				<label for="queues">
+					<input type="checkbox" id="queues" value="queues" /> Queues <br />
+				</label>
+				<p id="anycomments">Any comments or suggestions?</p>
+				<textarea
+					placeholder="Enter your comment here..."
+					cols="61"
+					rows="10"
+				></textarea>
+				<button type="submit" id="submit">Submit</button>
+			</form>
+		</section>
+		<script src="/app.js"></script>
+	</body>
+</html>
