@@ -4,6 +4,6 @@ This is a landing page with a form to help improve Nando's services coded in HTM
 
 Things I learned or practiced in this project:
 * Importing Google fonts instead of using the regular sans-seriff font.
-* Wrapping the label element around the input element to correcly assign the label to the input field.
+* Wrapping the label element around the input element to correcly assign the label to the corresponding input field.
 * Using placeholder text as a default instead of an empty input field.
 *  
