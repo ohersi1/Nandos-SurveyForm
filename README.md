@@ -9,3 +9,4 @@ Things I learned or practiced in this project:
 * Used the select element for the first time to get the user to select their occupation.
 * Used radio buttons to try a different method of collecting information and asked the user if they would recommend Nando's to a friend.
 * Used a checkbox input so that users can select multiple choices at the same time instead of the usual one choice at a time. 
+* Used a textarea element to gather any further information the user wants to add.
