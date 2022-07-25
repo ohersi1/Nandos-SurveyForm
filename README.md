@@ -6,4 +6,6 @@ Things I learned or practiced in this project:
 * Importing Google fonts instead of using the regular sans-seriff font.
 * Wrapping the label element around the input element to correcly assign the label to the corresponding input field.
 * Using placeholder text as a default instead of an empty input field.
-*  
+* Used the select element for the first time to get the user to select their occupation.
+* Used radio buttons to try a different method of collecting information and asked the user if they would recommend Nando's to a friend.
+* Used a checkbox input so that users can select multiple choices at the same time instead of the usual one choice at a time. 
